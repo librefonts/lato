@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Lato-Regular.ttf.ttx, Lato-LightItalic.ttf.ttx, Lato-Light.ttf.ttx,
+  Lato-Italic.ttf.ttx, Lato-HairlineItalic.ttf.ttx, Lato-Hairline.ttf.ttx, Lato-BoldItalic.ttf.ttx,
+  Lato-Bold.ttf.ttx, Lato-BlackItalic.ttf.ttx, Lato-Black.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

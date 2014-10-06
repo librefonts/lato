@@ -1,0 +1,417 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Lato Black
+    Sub family: Black
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: tyPoland Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato Black
+    Sub family: Black Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: tyPoland Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: tyPoland Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: tyPoland Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato Hairline
+    Sub family: Hairline
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2011-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato Hairline
+    Sub family: Hairline Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2011-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato
+    Sub family: Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: tyPoland Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato Light
+    Sub family: Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2011-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato Light
+    Sub family: Light Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2011-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Lato
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+    License: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.104; Western+Polish opensource
+    Vendor: tyPoland Lukasz Dziedzic
+    Vendor url: http://www.typoland.com/
+    Designer: Lukasz Dziedzic
+    Designer url: http://www.typoland.com/designers/Lukasz_Dziedzic/
+    Glyph count: 277
+    Character count: 263
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23

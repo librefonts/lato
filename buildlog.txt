@@ -1,0 +1,1386 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/lato/METADATA.json /home/travis/build/fontdirectory/lato/builds/build
+$ cp -a /home/travis/build/fontdirectory/lato/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/lato/builds/build
+$ cp -a /home/travis/build/fontdirectory/lato/FONTLOG.txt /home/travis/build/fontdirectory/lato/builds/build
+$ cp -a Lato-Regular.ttf.ttx Lato-LightItalic.ttf.ttx Lato-Light.ttf.ttx Lato-Italic.ttf.ttx Lato-HairlineItalic.ttf.ttx Lato-Hairline.ttf.ttx Lato-BoldItalic.ttf.ttx Lato-Bold.ttf.ttx Lato-BlackItalic.ttf.ttx Lato-Black.ttf.ttx Lato-Regular.ttf._p_r_e_p.ttx Lato-Regular.ttf._p_o_s_t.ttx Lato-Regular.ttf._n_a_m_e.ttx Lato-Regular.ttf._m_a_x_p.ttx Lato-Regular.ttf._l_o_c_a.ttx Lato-Regular.ttf._k_e_r_n.ttx Lato-Regular.ttf._h_m_t_x.ttx Lato-Regular.ttf._h_h_e_a.ttx Lato-Regular.ttf._h_e_a_d.ttx Lato-Regular.ttf._g_l_y_f.ttx Lato-Regular.ttf._g_a_s_p.ttx Lato-Regular.ttf._f_p_g_m.ttx Lato-Regular.ttf._c_v_t.ttx Lato-Regular.ttf._c_m_a_p.ttx Lato-Regular.ttf.O_S_2f_2.ttx Lato-Regular.ttf.GlyphOrder.ttx Lato-Regular.ttf.G_S_U_B_.ttx Lato-Regular.ttf.G_P_O_S_.ttx Lato-Regular.ttf.D_S_I_G_.ttx Lato-LightItalic.ttf._p_r_e_p.ttx Lato-LightItalic.ttf._p_o_s_t.ttx Lato-LightItalic.ttf._n_a_m_e.ttx Lato-LightItalic.ttf._m_a_x_p.ttx Lato-LightItalic.ttf._l_o_c_a.ttx Lato-LightItalic.ttf._k_e_r_n.ttx Lato-LightItalic.ttf._h_m_t_x.ttx Lato-LightItalic.ttf._h_h_e_a.ttx Lato-LightItalic.ttf._h_e_a_d.ttx Lato-LightItalic.ttf._g_l_y_f.ttx Lato-LightItalic.ttf._g_a_s_p.ttx Lato-LightItalic.ttf._f_p_g_m.ttx Lato-LightItalic.ttf._c_v_t.ttx Lato-LightItalic.ttf._c_m_a_p.ttx Lato-LightItalic.ttf.V_D_M_X_.ttx Lato-LightItalic.ttf.O_S_2f_2.ttx Lato-LightItalic.ttf.GlyphOrder.ttx Lato-LightItalic.ttf.G_S_U_B_.ttx Lato-LightItalic.ttf.G_P_O_S_.ttx Lato-Light.ttf._p_r_e_p.ttx Lato-Light.ttf._p_o_s_t.ttx Lato-Light.ttf._n_a_m_e.ttx Lato-Light.ttf._m_a_x_p.ttx Lato-Light.ttf._l_o_c_a.ttx Lato-Light.ttf._k_e_r_n.ttx Lato-Light.ttf._h_m_t_x.ttx Lato-Light.ttf._h_h_e_a.ttx Lato-Light.ttf._h_e_a_d.ttx Lato-Light.ttf._h_d_m_x.ttx Lato-Light.ttf._g_l_y_f.ttx Lato-Light.ttf._g_a_s_p.ttx Lato-Light.ttf._f_p_g_m.ttx Lato-Light.ttf._c_v_t.ttx Lato-Light.ttf._c_m_a_p.ttx Lato-Light.ttf.V_D_M_X_.ttx Lato-Light.ttf.O_S_2f_2.ttx Lato-Light.ttf.L_T_S_H_.ttx Lato-Light.ttf.GlyphOrder.ttx Lato-Light.ttf.G_S_U_B_.ttx Lato-Light.ttf.G_P_O_S_.ttx Lato-Italic.ttf._p_r_e_p.ttx Lato-Italic.ttf._p_o_s_t.ttx Lato-Italic.ttf._n_a_m_e.ttx Lato-Italic.ttf._m_a_x_p.ttx Lato-Italic.ttf._l_o_c_a.ttx Lato-Italic.ttf._k_e_r_n.ttx Lato-Italic.ttf._h_m_t_x.ttx Lato-Italic.ttf._h_h_e_a.ttx Lato-Italic.ttf._h_e_a_d.ttx Lato-Italic.ttf._g_l_y_f.ttx Lato-Italic.ttf._g_a_s_p.ttx Lato-Italic.ttf._f_p_g_m.ttx Lato-Italic.ttf._c_v_t.ttx Lato-Italic.ttf._c_m_a_p.ttx Lato-Italic.ttf.O_S_2f_2.ttx Lato-Italic.ttf.GlyphOrder.ttx Lato-Italic.ttf.G_S_U_B_.ttx Lato-Italic.ttf.G_P_O_S_.ttx Lato-Italic.ttf.D_S_I_G_.ttx Lato-HairlineItalic.ttf._p_r_e_p.ttx Lato-HairlineItalic.ttf._p_o_s_t.ttx Lato-HairlineItalic.ttf._n_a_m_e.ttx Lato-HairlineItalic.ttf._m_a_x_p.ttx Lato-HairlineItalic.ttf._l_o_c_a.ttx Lato-HairlineItalic.ttf._k_e_r_n.ttx Lato-HairlineItalic.ttf._h_m_t_x.ttx Lato-HairlineItalic.ttf._h_h_e_a.ttx Lato-HairlineItalic.ttf._h_e_a_d.ttx Lato-HairlineItalic.ttf._g_l_y_f.ttx Lato-HairlineItalic.ttf._g_a_s_p.ttx Lato-HairlineItalic.ttf._f_p_g_m.ttx Lato-HairlineItalic.ttf._c_v_t.ttx Lato-HairlineItalic.ttf._c_m_a_p.ttx Lato-HairlineItalic.ttf.V_D_M_X_.ttx Lato-HairlineItalic.ttf.O_S_2f_2.ttx Lato-HairlineItalic.ttf.GlyphOrder.ttx Lato-HairlineItalic.ttf.G_S_U_B_.ttx Lato-HairlineItalic.ttf.G_P_O_S_.ttx Lato-Hairline.ttf._p_r_e_p.ttx Lato-Hairline.ttf._p_o_s_t.ttx Lato-Hairline.ttf._n_a_m_e.ttx Lato-Hairline.ttf._m_a_x_p.ttx Lato-Hairline.ttf._l_o_c_a.ttx Lato-Hairline.ttf._k_e_r_n.ttx Lato-Hairline.ttf._h_m_t_x.ttx Lato-Hairline.ttf._h_h_e_a.ttx Lato-Hairline.ttf._h_e_a_d.ttx Lato-Hairline.ttf._h_d_m_x.ttx Lato-Hairline.ttf._g_l_y_f.ttx Lato-Hairline.ttf._g_a_s_p.ttx Lato-Hairline.ttf._f_p_g_m.ttx Lato-Hairline.ttf._c_v_t.ttx Lato-Hairline.ttf._c_m_a_p.ttx Lato-Hairline.ttf.V_D_M_X_.ttx Lato-Hairline.ttf.O_S_2f_2.ttx Lato-Hairline.ttf.L_T_S_H_.ttx Lato-Hairline.ttf.GlyphOrder.ttx Lato-Hairline.ttf.G_S_U_B_.ttx Lato-Hairline.ttf.G_P_O_S_.ttx Lato-BoldItalic.ttf._p_r_e_p.ttx Lato-BoldItalic.ttf._p_o_s_t.ttx Lato-BoldItalic.ttf._n_a_m_e.ttx Lato-BoldItalic.ttf._m_a_x_p.ttx Lato-BoldItalic.ttf._l_o_c_a.ttx Lato-BoldItalic.ttf._k_e_r_n.ttx Lato-BoldItalic.ttf._h_m_t_x.ttx Lato-BoldItalic.ttf._h_h_e_a.ttx Lato-BoldItalic.ttf._h_e_a_d.ttx Lato-BoldItalic.ttf._g_l_y_f.ttx Lato-BoldItalic.ttf._g_a_s_p.ttx Lato-BoldItalic.ttf._f_p_g_m.ttx Lato-BoldItalic.ttf._c_v_t.ttx Lato-BoldItalic.ttf._c_m_a_p.ttx Lato-BoldItalic.ttf.O_S_2f_2.ttx Lato-BoldItalic.ttf.GlyphOrder.ttx Lato-BoldItalic.ttf.G_S_U_B_.ttx Lato-BoldItalic.ttf.G_P_O_S_.ttx Lato-BoldItalic.ttf.D_S_I_G_.ttx Lato-Bold.ttf._p_r_e_p.ttx Lato-Bold.ttf._p_o_s_t.ttx Lato-Bold.ttf._n_a_m_e.ttx Lato-Bold.ttf._m_a_x_p.ttx Lato-Bold.ttf._l_o_c_a.ttx Lato-Bold.ttf._k_e_r_n.ttx Lato-Bold.ttf._h_m_t_x.ttx Lato-Bold.ttf._h_h_e_a.ttx Lato-Bold.ttf._h_e_a_d.ttx Lato-Bold.ttf._g_l_y_f.ttx Lato-Bold.ttf._g_a_s_p.ttx Lato-Bold.ttf._f_p_g_m.ttx Lato-Bold.ttf._c_v_t.ttx Lato-Bold.ttf._c_m_a_p.ttx Lato-Bold.ttf.O_S_2f_2.ttx Lato-Bold.ttf.GlyphOrder.ttx Lato-Bold.ttf.G_S_U_B_.ttx Lato-Bold.ttf.G_P_O_S_.ttx Lato-Bold.ttf.D_S_I_G_.ttx Lato-BlackItalic.ttf._p_r_e_p.ttx Lato-BlackItalic.ttf._p_o_s_t.ttx Lato-BlackItalic.ttf._n_a_m_e.ttx Lato-BlackItalic.ttf._m_a_x_p.ttx Lato-BlackItalic.ttf._l_o_c_a.ttx Lato-BlackItalic.ttf._k_e_r_n.ttx Lato-BlackItalic.ttf._h_m_t_x.ttx Lato-BlackItalic.ttf._h_h_e_a.ttx Lato-BlackItalic.ttf._h_e_a_d.ttx Lato-BlackItalic.ttf._g_l_y_f.ttx Lato-BlackItalic.ttf._g_a_s_p.ttx Lato-BlackItalic.ttf._f_p_g_m.ttx Lato-BlackItalic.ttf._c_v_t.ttx Lato-BlackItalic.ttf._c_m_a_p.ttx Lato-BlackItalic.ttf.O_S_2f_2.ttx Lato-BlackItalic.ttf.GlyphOrder.ttx Lato-BlackItalic.ttf.G_S_U_B_.ttx Lato-BlackItalic.ttf.G_P_O_S_.ttx Lato-BlackItalic.ttf.D_S_I_G_.ttx Lato-Black.ttf._p_r_e_p.ttx Lato-Black.ttf._p_o_s_t.ttx Lato-Black.ttf._n_a_m_e.ttx Lato-Black.ttf._m_a_x_p.ttx Lato-Black.ttf._l_o_c_a.ttx Lato-Black.ttf._k_e_r_n.ttx Lato-Black.ttf._h_m_t_x.ttx Lato-Black.ttf._h_h_e_a.ttx Lato-Black.ttf._h_e_a_d.ttx Lato-Black.ttf._g_l_y_f.ttx Lato-Black.ttf._g_a_s_p.ttx Lato-Black.ttf._f_p_g_m.ttx Lato-Black.ttf._c_v_t.ttx Lato-Black.ttf._c_m_a_p.ttx Lato-Black.ttf.O_S_2f_2.ttx Lato-Black.ttf.GlyphOrder.ttx Lato-Black.ttf.G_S_U_B_.ttx Lato-Black.ttf.G_P_O_S_.ttx Lato-Black.ttf.D_S_I_G_.ttx /home/travis/build/fontdirectory/lato/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Black.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Bold.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Hairline.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-HairlineItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Italic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Light.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-LightItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Regular.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx Lato-Black.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Black.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-BlackItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BlackItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BlackItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Bold.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-Hairline.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Hairline.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Hairline.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-HairlineItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-HairlineItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-HairlineItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Italic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-Light.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Light.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-LightItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-LightItalic.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-LightItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Lato-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Regular.ttf.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/lato/builds/build /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Regular.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-LightItalic.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Light.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Italic.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-HairlineItalic.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Hairline.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BoldItalic.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Bold.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BlackItalic.ttx /home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Black.ttx
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Regular.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-LightItalic.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Light.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Italic.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-HairlineItalic.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'VDMX' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Hairline.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BoldItalic.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Bold.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-BlackItalic.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/lato/builds/build/sources/Lato-Black.ttx" to "/home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+### Test Lato-Regular.ttf
+$ fontbakery-check.py result Lato-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+Parameter              Lato-Regular.ttf    Lato-Black.ttf    Lato-BlackItalic.ttf    Lato-Bold.ttf    Lato-BoldItalic.ttf    Lato-Hairline.ttf    Lato-HairlineItalic.ttf    Lato-Italic.ttf    Lato-Light.ttf    Lato-LightItalic.ttf    
+ymax                   1837                1904              1904                    1874             1874                   1760                 1760                       1837               1789              1789                    
+hhea.ascent            1904                1904              1904                    1904             1904                   1904                 1904                       1904               1904              1904                    
+OS/2.sTypoAscender     1904                1904              1904                    1904             1904                   1904                 1904                       1904               1904              1904                    
+OS/2.usWinAscent       1904                1904              1904                    1904             1904                   1904                 1904                       1904               1904              1904                    
+ymin                   -365                -357              -500                    -361             -500                   -380                 -500                       -500               -372              -500                    
+hhea.descent           -500                -500              -500                    -500             -500                   -500                 -500                       -500               -500              -500                    
+OS/2.sTypoDescender    -500                -500              -500                    -500             -500                   -500                 -500                       -500               -500              -500                    
+OS/2.usWinDescent      500                 500               500                     500              500                    500                  500                        500                500               500                     
+hhea.lineGap           0                   0                 0                       0                0                      0                    0                          0                  0                 0                       
+OS/2.sTypoLineGap      0                   0                 0                       0                0                      0                    0                          0                  0                 0                       
+hhea total             2404                2404              2404                    2404             2404                   2404                 2404                       2404               2404              2404                    
+typo total             2404                2404              2404                    2404             2404                   2404                 2404                       2404               2404              2404                    
+win total              2404                2404              2404                    2404             2404                   2404                 2404                       2404               2404              2404                    
+UPM:Heights            2000:2202           2000:2261         2000:2404               2000:2235        2000:2374              2000:2140            2000:2260                  2000:2337          2000:2161         2000:2289               
+UPM:Heights %          110 %               113 %             120 %                   111 %            118 %                  107 %                112 %                      116 %              108 %             114 %                   
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-Regular.ttf
+$ ls -l 'Lato-Regular.ttf'* # look at the size savings of that subset process
+Lato-Regular.ttf.opt: 75116 bytes
+Lato-Regular.ttf: 106004 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+### Autohint TTFs (ttfautohint) Lato-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf: 75116 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.autohint.ttf: 49788 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+### Subset TTFs (pyftsubset) Lato-Regular.ttf
+$ pyftsubset Lato-Regular.latin
+$ pyftsubset Lato-Regular.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-Regular.ttf
+### Test Lato-LightItalic.ttf
+$ fontbakery-check.py result Lato-LightItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'VDMX' vertical device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Light Italic
+Windows String: Italic
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Lato Light Italic
+Windows String: Lato-LightItalic
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-LightItalic.ttf
+$ ls -l 'Lato-LightItalic.ttf'* # look at the size savings of that subset process
+Lato-LightItalic.ttf.opt: 48884 bytes
+Lato-LightItalic.ttf: 78560 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+### Autohint TTFs (ttfautohint) Lato-LightItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf: 48884 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.autohint.ttf: 49880 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+### Subset TTFs (pyftsubset) Lato-LightItalic.ttf
+$ pyftsubset Lato-LightItalic.latin
+$ pyftsubset Lato-LightItalic.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-LightItalic.ttf
+### Test Lato-Light.ttf
+$ fontbakery-check.py result Lato-Light.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Light
+Windows String: Regular
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Lato Light
+Windows String: Lato-Light
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-Light.ttf
+$ ls -l 'Lato-Light.ttf'* # look at the size savings of that subset process
+Lato-Light.ttf.opt: 77040 bytes
+Lato-Light.ttf: 108260 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+### Autohint TTFs (ttfautohint) Lato-Light.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-Light.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf: 77040 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Light.autohint.ttf: 48732 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+### Subset TTFs (pyftsubset) Lato-Light.ttf
+$ pyftsubset Lato-Light.latin
+$ pyftsubset Lato-Light.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-Light.ttf
+### Test Lato-Italic.ttf
+$ fontbakery-check.py result Lato-Italic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-Italic.ttf
+$ ls -l 'Lato-Italic.ttf'* # look at the size savings of that subset process
+Lato-Italic.ttf.opt: 75696 bytes
+Lato-Italic.ttf: 105316 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+### Autohint TTFs (ttfautohint) Lato-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf: 75696 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.autohint.ttf: 51172 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+### Subset TTFs (pyftsubset) Lato-Italic.ttf
+$ pyftsubset Lato-Italic.latin
+$ pyftsubset Lato-Italic.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-Italic.ttf
+### Test Lato-HairlineItalic.ttf
+$ fontbakery-check.py result Lato-HairlineItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'VDMX' vertical device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Hairline Italic
+Windows String: Italic
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Lato Hairline Italic
+Windows String: Lato-HairlineItalic
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-HairlineItalic.ttf
+$ ls -l 'Lato-HairlineItalic.ttf'* # look at the size savings of that subset process
+Lato-HairlineItalic.ttf.opt: 48684 bytes
+Lato-HairlineItalic.ttf: 78240 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+### Autohint TTFs (ttfautohint) Lato-HairlineItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf: 48684 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.autohint.ttf: 49480 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+### Subset TTFs (pyftsubset) Lato-HairlineItalic.ttf
+$ pyftsubset Lato-HairlineItalic.latin
+$ pyftsubset Lato-HairlineItalic.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-HairlineItalic.ttf
+### Test Lato-Hairline.ttf
+$ fontbakery-check.py result Lato-Hairline.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Hairline
+Windows String: Regular
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Lato Hairline
+Windows String: Lato-Hairline
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-Hairline.ttf
+$ ls -l 'Lato-Hairline.ttf'* # look at the size savings of that subset process
+Lato-Hairline.ttf.opt: 69804 bytes
+Lato-Hairline.ttf: 101036 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+### Autohint TTFs (ttfautohint) Lato-Hairline.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf: 69804 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.autohint.ttf: 53568 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+### Subset TTFs (pyftsubset) Lato-Hairline.ttf
+$ pyftsubset Lato-Hairline.latin
+$ pyftsubset Lato-Hairline.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-Hairline.ttf
+### Test Lato-BoldItalic.ttf
+$ fontbakery-check.py result Lato-BoldItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-BoldItalic.ttf
+$ ls -l 'Lato-BoldItalic.ttf'* # look at the size savings of that subset process
+Lato-BoldItalic.ttf.opt: 77636 bytes
+Lato-BoldItalic.ttf: 107276 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Lato-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf: 77636 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.autohint.ttf: 52416 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Lato-BoldItalic.ttf
+$ pyftsubset Lato-BoldItalic.latin
+$ pyftsubset Lato-BoldItalic.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-BoldItalic.ttf
+### Test Lato-Bold.ttf
+$ fontbakery-check.py result Lato-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-Bold.ttf
+$ ls -l 'Lato-Bold.ttf'* # look at the size savings of that subset process
+Lato-Bold.ttf.opt: 73296 bytes
+Lato-Bold.ttf: 106536 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+### Autohint TTFs (ttfautohint) Lato-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf: 73296 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.autohint.ttf: 51372 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+### Subset TTFs (pyftsubset) Lato-Bold.ttf
+$ pyftsubset Lato-Bold.latin
+$ pyftsubset Lato-Bold.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-Bold.ttf
+### Test Lato-BlackItalic.ttf
+$ fontbakery-check.py result Lato-BlackItalic.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Black Italic
+Windows String: Italic
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-BlackItalic.ttf
+$ ls -l 'Lato-BlackItalic.ttf'* # look at the size savings of that subset process
+Lato-BlackItalic.ttf.opt: 71856 bytes
+Lato-BlackItalic.ttf: 99632 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+### Autohint TTFs (ttfautohint) Lato-BlackItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf: 71856 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.autohint.ttf: 50656 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+### Subset TTFs (pyftsubset) Lato-BlackItalic.ttf
+$ pyftsubset Lato-BlackItalic.latin
+$ pyftsubset Lato-BlackItalic.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-BlackItalic.ttf
+### Test Lato-Black.ttf
+$ fontbakery-check.py result Lato-Black.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Black
+Windows String: Regular
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.fix /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF Lato-Black.ttf
+$ ls -l 'Lato-Black.ttf'* # look at the size savings of that subset process
+Lato-Black.ttf.opt: 69440 bytes
+Lato-Black.ttf: 100344 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf.opt /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+### Autohint TTFs (ttfautohint) Lato-Black.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf '/home/travis/build/fontdirectory/lato/builds/build/Lato-Black.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf: 69440 bytes
+/home/travis/build/fontdirectory/lato/builds/build/Lato-Black.autohint.ttf: 49312 bytes
+$ mv /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.autohint.ttf /home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+### Subset TTFs (pyftsubset) Lato-Black.ttf
+$ pyftsubset Lato-Black.latin
+$ pyftsubset Lato-Black.menu
+strippedname:/home/travis/build/fontdirectory/lato/builds/build/Lato-Black.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/lato/builds/build
+{} exists
+Designer's name from font is: Lukasz Dziedzic
+Original size: 49788\nGzip size: 29639
+Family Name: Lato
+PS Name: Lato-Black
+Full Name: Lato Black
+Style: normal
+Weight: 900
+Filename: Lato-Black.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-BlackItalic
+Full Name: Lato Black Italic
+Style: italic
+Weight: 900
+Filename: Lato-BlackItalic.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-Bold
+Full Name: Lato Bold
+Style: normal
+Weight: 700
+Filename: Lato-Bold.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-BoldItalic
+Full Name: Lato Bold Italic
+Style: italic
+Weight: 700
+Filename: Lato-BoldItalic.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-Hairline
+Full Name: Lato-Hairline
+Style: normal
+Weight: 250
+Filename: Lato-Hairline.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-HairlineItalic
+Full Name: Lato-HairlineItalic
+Style: italic
+Weight: 250
+Filename: Lato-HairlineItalic.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-Italic
+Full Name: Lato Italic
+Style: italic
+Weight: 400
+Filename: Lato-Italic.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-Light
+Full Name: Lato-Light
+Style: normal
+Weight: 300
+Filename: Lato-Light.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-LightItalic
+Full Name: Lato-LightItalic
+Style: italic
+Weight: 300
+Filename: Lato-LightItalic.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Family Name: Lato
+PS Name: Lato-Regular
+Full Name: Lato Regular
+Style: normal
+Weight: 400
+Filename: Lato-Regular.ttf
+Copyright: Copyright (c) 2010-2011 by tyPoland Lukasz Dziedzic with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1.
+Error: 
+ERROR: BUILD FAILED
